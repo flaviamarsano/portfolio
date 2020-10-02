@@ -281,7 +281,232 @@ margin-top: 10px;}
 .grupoproyecto a:hover
 {color: #EEF2FA;}
 
-.mobile-content {
-    display: none;
-}
+@media only screen and (max-width: 414px) {
+    nav
+    {
+        z-index:1000;
+        background-color: #EEF2FA;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+        
+        position: fixed;
+        width: 400px;
+        height: 200px;
+        margin-right: 2px;
+        margin-top: 5px;
+        padding: 1, auto;
+       
+    }
+    
+    .nombre a
+    {
+        font-family: "PlayfairBlack";
+        font-size: 25px;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        margin-top: 100px;
+        margin-left: 200px;
+        transition: 0,3s;
+    }
+    
+     .nombre a:hover
+    {
+         color: black;
+    }
+    
+    a
+    {
+        text-decoration: none;
+        color: black;
+        margin-right: 15px;
+        transition: 0,3s;
+    }
+    
+    nav a:hover
+    {
+        color: #5380C5;
+    }
+    
+    .links
+    {
+        font-family: "PlayfairRegular";
+        font-size: 16px;
+        text-decoration: none;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin-right: 1px;
+        padding-left: 1px;
+        margin-left: 5px;
+    }
+    
+    .yo
+    { 
+        font-family: "PlayfairSemiBold";
+        font-size: 20px;
+        background-color: #5380C5;
+        height: 500px;
+        width: 200px;
+        padding: 10px;
+        padding-bottom: 100px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 80px; }
 
+    .yo p
+   {height: 300px;
+    width: 300px;
+padding: 0,1px;} 
+
+    
+    
+    .infopersonal
+    {
+         margin-top: 200px;  
+        margin-bottom: 80px;
+        margin-left: 1px;
+    }
+    
+    
+    #introproyectos
+    {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        background-color: #5380C5;
+        border-radius: 100%;
+        width: 300px;
+        height: 300px;
+        margin:0 auto;  
+        margin-bottom: 50px;
+       
+    }
+  
+    h2
+    {
+        font-family: "PlayfairExtraBold";
+        font-size: 30px;
+    
+        text-align: center;
+    }
+    h4
+    {
+        font-family: "PlayfairExtraBold";
+        font-size: 30px;
+        -webkit-text-fill-color: #5380C5;
+        -webkit-text-stroke: 1px black;
+       
+        text-align: center;
+    }
+
+#infoproyecto
+    {
+        width: 50%;
+    }
+
+.imagenproyecto img
+    {
+        width: 300px;
+        height: 170px;
+        display: flex;
+        align-content: center;
+        margin-bottom: 50px;
+    }
+
+.grupoproyecto
+    {
+        display: flex;
+        flex-direction: column ;
+        flex-wrap: nowrap;
+        padding:0 50px;
+        margin-bottom: 150px;
+        margin-top: 15px;
+        margin:0 auto;  
+    }
+
+
+  h3
+    {
+        font-family: "PlayfairExtraBold";
+        font-size: 25px;
+        width: 300px;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom:10%;
+    }
+
+  .tipoproyecto
+    {
+        font-family: "PlayfairMedium";
+        font-size: 15px;
+        width: 300px;
+        color: #2D4467;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom:5%;
+        color: #2D4467;
+    }
+
+.descripciónproyecto
+    {
+        font-family: "PlayfairSemiBold";
+        font-size: 16px;
+        text-align: center;
+        width: 300px;
+        margin-top: 5%;
+        margin-bottom: 5%
+    }
+
+.botónver
+    {
+        font-family: "PlayfairSemiBold";
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        transition: 1s;
+    }
+
+.botónver a:hover
+{color: black;}
+
+.botón
+{width: 300px;
+height: 45px;
+background-color: #5380C5;
+margin-top: 65px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+transition: 1s;}
+
+
+.grupoproyecto img
+{width: 200;
+height: 100;}
+
+#contacto
+{font-family: "PlayfairExtraBold";
+    font-size: 35px;
+text-align: center;
+margin-top: 180px;
+margin-bottom: 50px;}
+
+
+.bolita
+{height: 6px;
+width: 6px;
+margin-right: 30px;
+margin-top: 5px;}
+
+}
