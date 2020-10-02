@@ -1,0 +1,287 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+*{box-sizing: border-box;}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family:"PlayfairBlack";
+    src: url(../fonts/PlayfairDisplay-Black.ttf);
+
+}
+
+@font-face {
+    font-family:"PlayfairExtrabold";
+    src: url(../fonts/PlayfairDisplay-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family:"PlayfairMedium";
+    src: url(../fonts/PlayfairDisplay-Medium.ttf);
+}
+
+@font-face {
+    font-family:"PlayfairRegular";
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family:"PlayfairSemiBold";
+    src: url(../fonts/PlayfairDisplay-SemiBold.ttf);
+}
+
+body
+{background-color: #EEF2FA;}
+nav
+{
+    z-index:1000;
+    background-color: #EEF2FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px 20px 80px;
+    position: fixed;
+    width: 100%;
+    height: 20%;
+    top: 0;
+    margin: 50px,
+}
+
+.nombre a
+{font-family: "PlayfairBlack";
+    font-size: 50px;
+text-decoration: none;
+color: black;
+padding: 10px;
+margin-top: 100px;
+margin-left: 200px;
+transition: 0,3s;}
+
+ .nombre a:hover
+ {color: black;}
+a
+{text-decoration: none;
+    color: black;
+margin-right: 30px;
+transition: 0,3s;}
+
+nav a:hover
+{
+color: #5380C5;}
+
+.links
+{font-family: "PlayfairRegular";
+font-size: 30px;
+text-decoration: none;
+color: black;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+margin-right: 5px;
+}
+
+.yo
+{ font-family: "PlayfairSemiBold";
+font-size: 45px;
+background-color: #5380C5;
+height: 600px;
+width: 100%;
+padding: 80px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+vertical-align: middle;
+;}
+
+.infopersonal
+{padding:0 80px;
+margin-bottom: 80px;
+margin-top: 80px;
+
+}
+
+#introproyectos
+{
+    display: flex;
+justify-content: center;
+align-content: center;
+flex-direction: column;
+    background-color: #5380C5;
+    border-radius: 100%;
+    width: 668px;
+    height: 681px;
+    margin:0 auto;  
+    margin-bottom: 80px;
+}
+
+
+
+h2
+{font-family: "PlayfairExtraBold";
+font-size: 120px;
+margin-left: 8%;
+margin-right: 8%;
+text-align: center;}
+h4
+{
+font-family: "PlayfairExtraBold";
+font-size: 120px;
+-webkit-text-fill-color: #5380C5;
+-webkit-text-stroke: 1px black;
+margin-left: 8%;
+margin-right: 8%;
+text-align: center;
+}
+
+#infoproyecto
+{width: 50%;}
+
+.imagenproyecto
+{width: 50%;}
+
+.grupoproyecto
+{display: flex;
+flex-direction: row ;
+flex-wrap: nowrap;
+padding:0 80px;
+margin-bottom: 150px;
+margin-top: 80px;}
+
+
+  h3
+  {font-family: "PlayfairExtraBold";
+font-size: 45px;
+text-align: left;
+margin-top: 5%;
+margin-bottom:5%;}
+
+  .tipoproyecto
+  {font-family: "PlayfairMedium";
+font-size: 25px;
+color: #2D4467;
+text-align: left;
+margin-top: 5%;
+margin-bottom:5%;
+color: #2D4467;
+}
+
+.descripciónproyecto
+{font-family: "PlayfairSemiBold";
+font-size: 30px;
+text-align: left;
+margin-top: 5%;
+margin-bottom: 5%}
+
+.botónver
+{font-family: "PlayfairSemiBold";
+font-size: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+transition: 1s;
+}
+
+.botónver a:hover
+{color: black;}
+
+.botón
+{width: 300px;
+height: 45px;
+background-color: #5380C5;
+margin-top: 65px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+transition: 1s;}
+
+
+.imagenproyecto 
+{margin-right: 80px;}
+
+.grupocontacto 
+{display: flex;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+margin-bottom: 20px;}
+
+.mail 
+{font-family: "PlayfairMedium";
+font-size: 20px;
+text-align: center;
+margin-bottom: 300px;}
+
+.mail a:hover
+{color: #5380C5;}
+
+#contacto
+{font-family: "PlayfairExtraBold";
+    font-size: 45px;
+text-align: center;
+margin-top: 180px;
+margin-bottom: 50px;}
+
+
+
+.bolita
+{height: 10px;
+width: 10px;
+margin-right: 30px;
+margin-top: 10px;}
+
+
+.grupoproyecto a:hover
+{color: #EEF2FA;}
+
+.mobile-content {
+    display: none;
+}
+
